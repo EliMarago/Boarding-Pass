@@ -1,0 +1,145 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+
+body{
+    text-align: center;
+  margin-top: 150px;
+  background: rgb(41,168,235);
+  background: linear-gradient(90deg, rgba(41, 167, 235, 0.506) 31%, rgba(39, 49, 56, 0.926) 50%, rgba(146,153,160,1) 100%);
+  }
+
+  .ticket
+  {
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    background-color: #273138;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Helvetica Neue;
+    font-weight: 300;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  header{
+    position: relative;
+    height: 35px;
+    background-color: #29A8EB;
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+
+  .company-name
+  {
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .gate{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-weight: 440;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+.airports
+{
+    padding: 5px 10px 10px 10px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    border-bottom: 2px dashed #000;
+    
+}
+
+.airport{
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.airport-name
+{
+    color: #29A8EB;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.airport-code
+{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.dep-arr-label
+{
+    color: #9299A0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.time
+{
+    font-size: 13px;
+    color: #9299A0;
+}
+
+.place
+{
+    padding: 10px;
+    text-align: center;
+    height: 330px;
+}
+.place-block
+{
+    display: inline-block;
+    margin: 10px 30px;
+}
+.place-label
+{
+    color: #29A8EB;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.place-value
+{
+    color: #9299A0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.qr
+{
+    width: 230px;
+    height: 230px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+}
+
+
+
+  .img-plane
+  {
+   height: 40px;
+   width: 40px;
+    position: relative;
+   top:-80px;
+   left: 10px;
+
+  }
